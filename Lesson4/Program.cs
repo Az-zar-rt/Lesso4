@@ -8,7 +8,7 @@
         FindMaxValue(out max, 13, 11, 12, 9, 0, 1, 45, 345);
         int sumOfOdd;
         var isOdd = TrySumIfOdd(3, 9, out sumOfOdd);
-        var r = Repeat("fuck", 4);
+        var r = Repeat("long", 4);
 
         Console.WriteLine($"min: {min}, max - {max}, [isOdd - {isOdd}, sum - {sumOfOdd}], repeat: {r}");
 
